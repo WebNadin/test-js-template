@@ -12,9 +12,11 @@ $ gulp
 ```
 
 This build tool contains normalise.scss (imported in style.scss). Also you have here head, header, footer and two fonts.
-There are some base variables in variable.scss for using throw the project. There is NO jQuery, only pure javascript.
-This project use html, scss and pure js. There is no jQuery but you acn add any library by adding file to
+There are some base variables in variable.scss for using through the project.
+
+This project use html, scss and pure js. There is no jQuery but you can add any library by adding file to
 src\js\partials folder and including js file into src\js\scripts.js
+
 You'll always have footer in the bottom of the page even if you have low amount of content.
 
 License
