@@ -22,9 +22,14 @@ function drawCircle() {
   ringContext.strokeStyle = "red";
   ringContext.lineWidth = 4;
 
+  ringContext.shadowOffsetX = 3;
+  ringContext.shadowOffsetY = 3;
+  ringContext.shadowBlur = 5;
+  ringContext.shadowColor = "gray";
+
   xPos += step;
-  if (xPos > maxXPos){
-      clearInterval(intervalID);
+  if (xPos > maxXPos) {
+    clearInterval(intervalID);
   }
 
   ringContext.beginPath();
