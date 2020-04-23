@@ -97,6 +97,18 @@ ul, ol {
   }
 }
 
+.draw {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  &__background{
+    background-color: gray;
+    height: 200px;
+    width: 300px;
+  }
+}
+
+
 .drawMap{
   position: relative;
   width: 480px;
